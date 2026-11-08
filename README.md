@@ -1,68 +1,72 @@
-Carolina Andrea Méndez Flores
-Administradora de propiedades
-Santa cruz de la sierra, Bolivia
+# Carolina Andrea Méndez Flores
 
-Datos personales
+**Administradora de propiedades y alquiler de habitaciones**
+Santa Cruz de la Sierra, Bolivia
 
-Nombre completo: Carolina Andrea Méndez Flores
+> *“Tu espacio ideal para vivir.”*
 
-Edad: 30 años
+---
 
-Nacionalidad: Boliviana
+## Sobre mí
 
-Ciudad: La Paz, Bolivia
+Soy una profesional responsable, amable y organizada, dedicada a la administración de propiedades y al alquiler de habitaciones. Mi compromiso es brindar una atención personalizada, acompañar a cada persona durante todo el proceso de alquiler y ofrecer espacios cómodos, seguros y adecuados para quienes buscan un lugar donde vivir.
 
-Profesión: Administradora de propiedades
+## Datos personales
 
-Estado civil: Soltera
+| | |
+|---|---|
+| **Nombre completo** | Carolina Andrea Méndez Flores |
+| **Edad** | 30 años |
+| **Nacionalidad** | Boliviana |
+| **Ciudad** | Santa Cruz de la Sierra, Bolivia |
+| **Profesión** | Administradora de propiedades |
+| **Estado civil** | Soltera |
 
-Datos de contacto ficticios
+## Información profesional
 
-WhatsApp: +591 700 123 456
+| | |
+|---|---|
+| **Cargo** | Encargada de alquiler de habitaciones |
+| **Experiencia** | 4 años |
+| **Especialidad** | Administración de viviendas y atención a inquilinos |
+| **Atención** | Consultas, visitas y contratos de alquiler |
 
-Correo: carolina.mendez.alquiler@gmail.com
+## Servicios
 
-Dirección de atención: Manzana 40, sanat cruz
+| Servicio | Detalle | Costo |
+|---|---|---|
+| Alquiler de habitaciones | Habitaciones cómodas para vivir | Según la casa |
+| Parqueo para motocicletas | Espacio para estacionar tu moto | Bs 50 |
+| Internet | Servicio opcional para inquilinos | Bs 50 adicionales |
+| Lavadora | Uso de lavadora (consumo de electricidad) | Bs 50 adicionales |
+| Limpieza | Servicio de limpieza | Bs 20 adicionales |
+| Copia de llave | Duplicado de llave | Bs 7 |
+| Coordinación de visitas | Agenda una visita a la propiedad | Sin costo |
+| Atención personalizada | Acompañamiento durante todo el alquiler | Sin costo |
 
-Horario: lunes a sábado, 08:00 a 18:00
+## Propiedades administradas
 
-Información profesional
+| Propiedad | Habitaciones | Ocupadas | Disponibles |
+|---|:---:|:---:|:---:|
+| Casa Roja | 7 | 4 | 3 |
+| Casa Azul | 14 | 12 | 2 |
+| Casa Naranja | 7 | 6 | 1 |
+| Casa del Parque Industrial | 10 | 6 | 4 |
+| **Total** | **38** | **28** | **10** |
 
-Cargo: Encargada de alquiler de habitaciones.
+Disponibilidad general: **26,3 %**
 
-Experiencia ficticia: 4 años.
+## Contacto
 
-Especialidad: Administración de viviendas y atención a inquilinos.
+- **WhatsApp:** [+591 700 123 456](https://wa.me/591700123456)
+- **Correo:** [carolina.mendez.alquiler@gmail.com](mailto:carolina.mendez.alquiler@gmail.com)
+- **Dirección de atención:** Manzana 40, Santa Cruz de la Sierra
+- **Horario:** lunes a sábado, de 08:00 a 18:00
 
-Atención: Consultas, visitas y contratos de alquiler.
+---
 
-Servicios ofrecidos
+## Tarjeta digital
 
-Alquiler de habitaciones depende de la casa.
+Abre [`index.html`](index.html) en cualquier navegador para ver la tarjeta de presentación digital. La foto de perfil está en `carolina.jpg`.
 
-Parqueo para motocicletas 50 bs.
-
-Servicio de internet opciona adicional 50 bs.
-
-Servicio de lavadora por Bs 50 adicionales.
-Servicio de limpieza por Bs 20 adicionales.
-Servicio de copia llavev  por Bs 7  adicionales.
-
-Coordinación de visitas.
-
-Atención personalizada.
-
-Propiedades administradas
-
-Casa Roja.
-
-Casa Azul.
-
-Casa Naranja.
-
-Casa del Parque Industrial.
-
-Descripción profesional
-
-Soy una mujer responsable, amable y organizada, dedicada a la administración de propiedades y alquiler de habitaciones. Mi compromiso es brindar una atención personalizada, facilitar el proceso de alquiler y ofrecer espacios adecuados para quienes buscan un lugar donde vivir.
-
+*Todos los datos son ficticios y se usan solo con fines de demostración.*

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Carolina Andrea Méndez Flores | Administradora de propiedades y alquileres</title>
-<meta name="description" content="Tarjeta digital de Carolina Andrea Méndez Flores, administradora de propiedades y alquiler de habitaciones en La Paz, Bolivia.">
+<meta name="description" content="Tarjeta digital de Carolina Andrea Méndez Flores, administradora de propiedades y alquiler de habitaciones en Santa Cruz de la Sierra, Bolivia.">
 <meta name="theme-color" content="#16302A">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2316302A'/%3E%3Cpath d='M14 32 32 16l18 16v16H38V36H26v12H14z' fill='none' stroke='%23C9A45C' stroke-width='4' stroke-linejoin='round'/%3E%3C/svg%3E">
 <style>
@@ -103,7 +103,7 @@
     background:linear-gradient(180deg,#E9DCC4,#D8C39E);
     box-shadow:0 0 0 6px rgba(201,164,92,.18),0 0 0 7px rgba(201,164,92,.6),0 24px 50px rgba(0,0,0,.35);
   }
-  .portrait__frame svg{width:100%;height:100%}
+  .portrait__frame img{width:100%;height:100%;object-fit:cover;object-position:50% 18%;transform:scale(1.08);transform-origin:50% 30%}
   .portrait__badge{
     position:absolute;left:50%;bottom:-18px;transform:translateX(-50%);white-space:nowrap;
     background:var(--beige);color:var(--green-800);border:1px solid var(--gold);
@@ -180,9 +180,13 @@
   .service h3{font-family:var(--serif);font-size:1.35rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--green-800);margin:0 0 8px;line-height:1.2}
   .service p{margin:0;color:var(--muted);font-size:.95rem}
   .service--featured{background:linear-gradient(160deg,#FFFDF8,var(--beige))}
+  .grid-services{margin-bottom:0}
   .price{
-    margin-top:auto;padding-top:18px;display:flex;align-items:flex-end;gap:10px;
+    margin-top:auto;padding-top:18px;display:flex;align-items:center;gap:10px;
   }
+  .price__tag--text strong{font-size:1.15rem;font-family:var(--sans);font-weight:700;letter-spacing:.3px}
+  .price__tag--free{background:rgba(43,85,72,.1);color:var(--green-700);box-shadow:none}
+  .price__tag--free strong{font-size:1rem;font-family:var(--sans);font-weight:700;letter-spacing:1px;text-transform:uppercase}
   .price__tag{
     display:inline-flex;align-items:baseline;gap:4px;padding:10px 16px;border-radius:14px;
     background:linear-gradient(135deg,var(--gold-soft),var(--gold) 60%,var(--gold-deep));color:var(--green-900);
@@ -389,6 +393,11 @@
     <symbol id="i-moto" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="21" r="4.5"/><circle cx="25" cy="21" r="4.5"/><path d="M7 21h6l5-7h4l3 7"/><path d="M13 14h5"/><path d="M20 9h3l1 5"/><path d="M10 14l3 7"/></symbol>
     <symbol id="i-wifi" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5a17 17 0 0 1 24 0"/><path d="M8.5 17a10.5 10.5 0 0 1 15 0"/><path d="M12.8 21.3a4.5 4.5 0 0 1 6.4 0"/><circle cx="16" cy="25" r="1.3" fill="currentColor"/></symbol>
     <symbol id="i-washer" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="3.5" width="20" height="25" rx="3"/><path d="M6 9h20"/><circle cx="10" cy="6.3" r=".8" fill="currentColor"/><circle cx="13" cy="6.3" r=".8" fill="currentColor"/><circle cx="16" cy="18.5" r="6"/><path d="M12.5 19c1.2-1 2.3 1 3.5 0s2.3 1 3.5 0"/></symbol>
+    <symbol id="i-clean" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 4 14 15"/><path d="M9.5 15h10l2.5 13H7Z"/><path d="M12 21v7M16 21v7"/><path d="M25 5v4M23 7h4"/><path d="M26 15v3M24.5 16.5h3"/></symbol>
+    <symbol id="i-keycopy" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="5"/><path d="m13 16 11-11"/><path d="m20 9 3 3"/><path d="m17 12 2.5 2.5"/><path d="M22 20h6M25 17v6"/></symbol>
+    <symbol id="i-cal32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="6.5" width="23" height="21" rx="3"/><path d="M4.5 13h23"/><path d="M10.5 4v5M21.5 4v5"/><path d="m12 20.5 3 3 5.5-5.5"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 27S4 19.5 4 11.5A6.5 6.5 0 0 1 16 8a6.5 6.5 0 0 1 12 3.5C28 19.5 16 27 16 27Z"/><path d="M11 14.5h3l1.5-3 2 6 1.5-3h2"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9Z"/></symbol>
     <symbol id="i-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 11 12 4l8.5 7"/><path d="M5.5 9.5V20h13V9.5"/><path d="M10 20v-5h4v5"/></symbol>
     <symbol id="i-key" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="4"/><path d="m11 12 8.5-8.5"/><path d="m16 7 2.5 2.5"/><path d="m14 9 2 2"/></symbol>
     <symbol id="i-door" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4.5A1.5 1.5 0 0 1 6.5 3h11A1.5 1.5 0 0 1 19 4.5V21"/><path d="M3 21h18"/><circle cx="15" cy="12.5" r=".9" fill="currentColor"/></symbol>
@@ -410,7 +419,7 @@
   <div class="container nav__inner">
     <a class="brand" href="#perfil" aria-label="Inicio - Carolina Méndez">
       <span class="brand__mark">CM</span>
-      <span class="brand__text">Carolina Méndez<small>Alquileres · La Paz</small></span>
+      <span class="brand__text">Carolina Méndez<small>Alquileres · Santa Cruz</small></span>
     </a>
     <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
       <svg><use href="#i-menu"/></svg>
@@ -439,66 +448,7 @@
 
       <figure class="portrait" style="margin:0">
         <div class="portrait__frame">
-          <!-- Retrato ilustrado (reemplazable por fotografía real: <img src="foto.jpg" alt="...">) -->
-          <svg viewBox="0 0 400 500" role="img" aria-labelledby="fotoTitle">
-            <title id="fotoTitle">Retrato profesional de Carolina Andrea Méndez Flores</title>
-            <defs>
-              <linearGradient id="bgP" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EFE4CF"/><stop offset="1" stop-color="#D6BF96"/></linearGradient>
-              <radialGradient id="skin" cx=".45" cy=".4" r=".7"><stop offset="0" stop-color="#C98F68"/><stop offset="1" stop-color="#A86E4B"/></radialGradient>
-              <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2A1A14"/><stop offset="1" stop-color="#140C09"/></linearGradient>
-              <linearGradient id="blazer" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#25493F"/><stop offset="1" stop-color="#0F241F"/></linearGradient>
-            </defs>
-            <rect width="400" height="500" fill="url(#bgP)"/>
-            <circle cx="320" cy="90" r="120" fill="#fff" opacity=".18"/>
-            <!-- hair back -->
-            <path d="M118 210c-8-92 42-148 86-148s96 40 88 140c-3 46 10 92 24 132-40 20-88 14-112 6-30 10-80 12-110-6 18-40 28-78 24-124Z" fill="url(#hair)"/>
-            <!-- neck -->
-            <path d="M176 290h52v52c-8 14-44 14-52 0Z" fill="#A86E4B"/>
-            <path d="M176 300c14 14 38 14 52 0v14c-16 10-36 10-52 0Z" fill="#8F5A3B" opacity=".55"/>
-            <!-- body -->
-            <path d="M60 500c4-96 40-140 98-160l44 40 44-40c58 20 94 64 98 160Z" fill="url(#blazer)"/>
-            <!-- blouse -->
-            <path d="M158 340l44 40 44-40 10 8-54 152h0L148 348Z" fill="#F7F2EA"/>
-            <path d="M202 380l-18 120h36Z" fill="#EDE4D6"/>
-            <!-- lapels -->
-            <path d="M158 340l-14 10 30 70 28-40Z" fill="#1B3A32"/>
-            <path d="M246 340l14 10-30 70-28-40Z" fill="#1B3A32"/>
-            <path d="M144 350l30 70 6-14Z" fill="#C9A45C" opacity=".35"/>
-            <!-- necklace -->
-            <path d="M180 338c8 22 36 22 44 0" fill="none" stroke="#D8B66E" stroke-width="2.5"/>
-            <circle cx="202" cy="356" r="4.5" fill="#E2C27E" stroke="#A8823C" stroke-width="1"/>
-            <!-- brooch -->
-            <circle cx="262" cy="410" r="6" fill="#C9A45C"/>
-            <!-- face -->
-            <ellipse cx="202" cy="212" rx="64" ry="80" fill="url(#skin)"/>
-            <!-- ears + earrings -->
-            <ellipse cx="139" cy="222" rx="9" ry="15" fill="#A86E4B"/>
-            <ellipse cx="265" cy="222" rx="9" ry="15" fill="#A86E4B"/>
-            <circle cx="139" cy="242" r="4.2" fill="#E2C27E"/>
-            <circle cx="265" cy="242" r="4.2" fill="#E2C27E"/>
-            <!-- hair front -->
-            <path d="M136 200c-2-70 40-110 74-108 44 2 66 40 60 104-12-30-34-52-64-60-18 26-46 46-70 64Z" fill="url(#hair)"/>
-            <path d="M206 136c22 10 44 30 58 58" stroke="#3A261D" stroke-width="2" fill="none" opacity=".6"/>
-            <!-- brows -->
-            <path d="M162 196c10-7 24-8 34-3" stroke="#22150F" stroke-width="4.5" stroke-linecap="round" fill="none"/>
-            <path d="M210 193c10-5 24-4 34 3" stroke="#22150F" stroke-width="4.5" stroke-linecap="round" fill="none"/>
-            <!-- eyes -->
-            <path d="M166 214c8-7 20-7 28 0-8 6-20 6-28 0Z" fill="#fff"/>
-            <path d="M212 214c8-7 20-7 28 0-8 6-20 6-28 0Z" fill="#fff"/>
-            <circle cx="180" cy="214" r="5.2" fill="#2B1810"/>
-            <circle cx="226" cy="214" r="5.2" fill="#2B1810"/>
-            <circle cx="182" cy="212" r="1.5" fill="#fff"/>
-            <circle cx="228" cy="212" r="1.5" fill="#fff"/>
-            <path d="M164 213c9-9 23-9 32 0M210 213c9-9 23-9 32 0" stroke="#1A0F0A" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-            <!-- nose -->
-            <path d="M203 222c-2 14-6 22-10 28 4 4 14 4 18 0" stroke="#8A5536" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-            <!-- cheeks -->
-            <ellipse cx="166" cy="248" rx="13" ry="8" fill="#C46A55" opacity=".22"/>
-            <ellipse cx="240" cy="248" rx="13" ry="8" fill="#C46A55" opacity=".22"/>
-            <!-- lips -->
-            <path d="M182 266c12 6 28 6 40 0-6 13-34 13-40 0Z" fill="#9B3F3A"/>
-            <path d="M182 266c8-4 14-4 20-1 6-3 12-3 20 1" stroke="#7E2F2B" stroke-width="1.6" fill="none"/>
-          </svg>
+          <img src="carolina.jpg" alt="Fotografía de perfil de Carolina Andrea Méndez Flores, vestida con blazer beige" width="540" height="500" decoding="async">
         </div>
         <figcaption class="portrait__badge"><span class="dot-live" aria-hidden="true"></span>Atención personalizada</figcaption>
       </figure>
@@ -506,15 +456,17 @@
       <div class="hero__content">
         <span class="eyebrow">Tarjeta digital profesional</span>
         <h1 class="hero__name" id="nombre">Carolina Andrea <span>Méndez Flores</span></h1>
-        <p class="hero__role">Administradora de propiedades y alquileres</p>
-        <div class="hero__loc"><svg aria-hidden="true"><use href="#i-pin"/></svg>LA PAZ - BOLIVIA</div>
+        <p class="hero__role">Administradora de propiedades · Encargada de alquiler de habitaciones</p>
+        <div class="hero__loc"><svg aria-hidden="true"><use href="#i-pin"/></svg>SANTA CRUZ DE LA SIERRA - BOLIVIA</div>
         <div class="divider" aria-hidden="true"></div>
-        <p class="hero__bio">“Soy una profesional responsable, organizada y comprometida con la administración de propiedades y el alquiler de habitaciones. Mi objetivo es brindar atención personalizada, facilitar el proceso de alquiler y ofrecer espacios cómodos y adecuados para vivir.”</p>
+        <p class="hero__bio">“Soy una profesional responsable, amable y organizada, dedicada a la administración de propiedades y al alquiler de habitaciones. Mi compromiso es brindar una atención personalizada, acompañarte durante todo el proceso de alquiler y ofrecer espacios cómodos, seguros y adecuados para vivir.”</p>
 
         <ul class="facts">
           <li class="fact"><span class="fact__icon"><svg aria-hidden="true"><use href="#i-phone"/></svg></span><span><span class="fact__label">Teléfono / WhatsApp</span><a class="fact__value" href="tel:+591700123456">+591 700 123 456</a></span></li>
           <li class="fact"><span class="fact__icon"><svg aria-hidden="true"><use href="#i-mail"/></svg></span><span style="min-width:0"><span class="fact__label">Correo</span><a class="fact__value" href="mailto:carolina.mendez.alquiler@gmail.com">carolina.mendez.alquiler@gmail.com</a></span></li>
           <li class="fact"><span class="fact__icon"><svg aria-hidden="true"><use href="#i-clock"/></svg></span><span><span class="fact__label">Horario</span><span class="fact__value">Lun. a sáb. · 08:00 – 18:00</span></span></li>
+          <li class="fact"><span class="fact__icon"><svg aria-hidden="true"><use href="#i-pin"/></svg></span><span><span class="fact__label">Dirección de atención</span><span class="fact__value">Manzana 40, Santa Cruz</span></span></li>
+          <li class="fact"><span class="fact__icon"><svg aria-hidden="true"><use href="#i-star"/></svg></span><span><span class="fact__label">Experiencia</span><span class="fact__value">4 años en alquileres</span></span></li>
           <li class="fact"><span class="fact__icon"><svg aria-hidden="true"><use href="#i-flag"/></svg></span><span><span class="fact__label">Perfil</span><span class="fact__value">30 años · Boliviana</span></span></li>
         </ul>
 
@@ -536,30 +488,75 @@
       <p class="section-sub">Todo lo necesario para que te sientas como en casa desde el primer día.</p>
     </header>
 
-    <div class="grid-4">
-      <article class="service reveal">
+    <div class="grid-4 grid-services">
+      <article class="service service--featured reveal">
         <div class="service__icon"><svg aria-hidden="true"><use href="#i-bed"/></svg></div>
         <h3>Habitaciones en alquiler</h3>
-        <p>Habitaciones disponibles para personas que buscan un espacio cómodo para vivir.</p>
+        <p>Habitaciones cómodas para quienes buscan un lugar donde vivir.</p>
+        <div class="price">
+          <span class="price__tag price__tag--text"><strong>Según la casa</strong></span>
+        </div>
       </article>
       <article class="service reveal" data-delay="1">
         <div class="service__icon"><svg aria-hidden="true"><use href="#i-moto"/></svg></div>
         <h3>Parqueo para motocicletas</h3>
-        <p>Espacio disponible para estacionar motocicletas.</p>
+        <p>Espacio seguro para estacionar tu motocicleta.</p>
+        <div class="price">
+          <span class="price__tag" aria-label="50 bolivianos"><small>Bs</small><strong>50</strong></span>
+          <span class="price__note">por<br>parqueo</span>
+        </div>
       </article>
       <article class="service reveal" data-delay="2">
+        <span class="ribbon" aria-hidden="true">Opcional</span>
         <div class="service__icon"><svg aria-hidden="true"><use href="#i-wifi"/></svg></div>
         <h3>Servicio de internet</h3>
-        <p>Acceso a internet para los inquilinos.</p>
+        <p>Conexión a internet opcional para los inquilinos.</p>
+        <div class="price">
+          <span class="price__tag" aria-label="Costo adicional: 50 bolivianos"><small>Bs</small><strong>50</strong></span>
+          <span class="price__note">costo<br>adicional</span>
+        </div>
       </article>
-      <article class="service service--featured reveal" data-delay="3">
-        <span class="ribbon" aria-hidden="true">Adicional</span>
+      <article class="service reveal" data-delay="3">
         <div class="service__icon"><svg aria-hidden="true"><use href="#i-washer"/></svg></div>
         <h3>Servicio de lavadora</h3>
-        <p>Uso de lavadora con un costo adicional por consumo de electricidad.</p>
+        <p>Uso de lavadora; el costo cubre el consumo de electricidad.</p>
         <div class="price">
           <span class="price__tag" aria-label="Costo adicional: 50 bolivianos"><small>Bs</small><strong>50</strong></span>
           <span class="price__note">costo adicional<br>por electricidad</span>
+        </div>
+      </article>
+      <article class="service reveal">
+        <div class="service__icon"><svg aria-hidden="true"><use href="#i-clean"/></svg></div>
+        <h3>Servicio de limpieza</h3>
+        <p>Limpieza de tu habitación cuando la necesites.</p>
+        <div class="price">
+          <span class="price__tag" aria-label="Costo adicional: 20 bolivianos"><small>Bs</small><strong>20</strong></span>
+          <span class="price__note">costo<br>adicional</span>
+        </div>
+      </article>
+      <article class="service reveal" data-delay="1">
+        <div class="service__icon"><svg aria-hidden="true"><use href="#i-keycopy"/></svg></div>
+        <h3>Copia de llave</h3>
+        <p>Duplicado de llave para tu habitación o ingreso.</p>
+        <div class="price">
+          <span class="price__tag" aria-label="7 bolivianos"><small>Bs</small><strong>7</strong></span>
+          <span class="price__note">por<br>copia</span>
+        </div>
+      </article>
+      <article class="service reveal" data-delay="2">
+        <div class="service__icon"><svg aria-hidden="true"><use href="#i-cal32"/></svg></div>
+        <h3>Coordinación de visitas</h3>
+        <p>Agenda una visita para conocer la casa y las habitaciones.</p>
+        <div class="price">
+          <span class="price__tag price__tag--free"><strong>Sin costo</strong></span>
+        </div>
+      </article>
+      <article class="service reveal" data-delay="3">
+        <div class="service__icon"><svg aria-hidden="true"><use href="#i-heart"/></svg></div>
+        <h3>Atención personalizada</h3>
+        <p>Consultas, visitas y contratos de alquiler con acompañamiento en cada paso.</p>
+        <div class="price">
+          <span class="price__tag price__tag--free"><strong>Sin costo</strong></span>
         </div>
       </article>
     </div>
@@ -572,7 +569,7 @@
     <header class="section-head reveal">
       <span class="eyebrow">Propiedades administradas</span>
       <h2 class="section-title" id="t-casas">Nuestras casas</h2>
-      <p class="section-sub">Cuatro propiedades en La Paz, cuidadas y administradas con dedicación.</p>
+      <p class="section-sub">Cuatro propiedades cuidadas y administradas con dedicación.</p>
     </header>
 
     <div class="grid-4" id="housesGrid"><!-- generado por JS --></div>
@@ -644,11 +641,12 @@
         <h3>Tu próximo hogar está a un mensaje de distancia</h3>
         <p>Respondo tus consultas de forma rápida y personalizada.</p>
         <ul class="contact__list">
-          <li><span class="fact__icon"><svg aria-hidden="true"><use href="#i-user"/></svg></span><div><b>Administradora</b><span>Carolina Andrea Méndez Flores</span></div></li>
+          <li><span class="fact__icon"><svg aria-hidden="true"><use href="#i-user"/></svg></span><div><b>Encargada de alquiler</b><span>Carolina Andrea Méndez Flores</span></div></li>
+          <li><span class="fact__icon"><svg aria-hidden="true"><use href="#i-star"/></svg></span><div><b>Especialidad</b><span>Administración de viviendas y atención a inquilinos</span></div></li>
           <li><span class="fact__icon"><svg aria-hidden="true"><use href="#i-phone"/></svg></span><div><b>Teléfono / WhatsApp</b><a href="tel:+591700123456">+591 700 123 456</a></div></li>
           <li><span class="fact__icon"><svg aria-hidden="true"><use href="#i-mail"/></svg></span><div style="min-width:0"><b>Correo electrónico</b><a href="mailto:carolina.mendez.alquiler@gmail.com">carolina.mendez.alquiler@gmail.com</a></div></li>
           <li><span class="fact__icon"><svg aria-hidden="true"><use href="#i-clock"/></svg></span><div><b>Horario de atención</b><span>Lunes a sábado, de 08:00 a 18:00</span></div></li>
-          <li><span class="fact__icon"><svg aria-hidden="true"><use href="#i-pin"/></svg></span><div><b>Ubicación</b><span>La Paz, Bolivia</span></div></li>
+          <li><span class="fact__icon"><svg aria-hidden="true"><use href="#i-pin"/></svg></span><div><b>Dirección de atención</b><span>Manzana 40, Santa Cruz de la Sierra, Bolivia</span></div></li>
         </ul>
       </div>
 
@@ -675,7 +673,7 @@
     <p class="footer__name">CAROLINA ANDREA MÉNDEZ FLORES</p>
     <p class="footer__role">Administradora de propiedades y alquileres</p>
     <p class="footer__slogan">“Tu espacio ideal para vivir.”</p>
-    <span class="footer__loc"><svg aria-hidden="true"><use href="#i-pin"/></svg>La Paz, Bolivia</span>
+    <span class="footer__loc"><svg aria-hidden="true"><use href="#i-pin"/></svg>Santa Cruz de la Sierra, Bolivia</span>
     <p class="footer__note">© <span id="year"></span> · Datos ficticios utilizados únicamente con fines de demostración.</p>
   </div>
 </footer>
@@ -878,8 +876,8 @@
   }
   function share(){
     var data = {
-      title: "Carolina Andrea Méndez Flores · Alquileres en La Paz",
-      text: "Tarjeta digital de Carolina Méndez, administradora de propiedades y alquiler de habitaciones en La Paz, Bolivia.",
+      title: "Carolina Andrea Méndez Flores · Alquileres en Santa Cruz",
+      text: "Tarjeta digital de Carolina Méndez, administradora de propiedades y alquiler de habitaciones en Santa Cruz de la Sierra, Bolivia.",
       url: window.location.href
     };
     if (navigator.share){
